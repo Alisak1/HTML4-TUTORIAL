@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<!-- Created by Alisa on Tuesday 01.28, expanded out on 01.30 -->
+<head>
+	<meta charset="UTF-8" />
+	<title>HTML Formatting</title>
+<style>
+h2.formatting{
+	font-size: 30px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	font-family: Arial, sans-serif;
+ 	color: red;
+}
+a:link{
+	color: white;
+	/*text-shadow: 10px;*/
+	background-color: #493D9E;
+	padding: 8px 15px;
+	text-decoration: none;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+a:visited{
+	color: white;
+}
+/* changes the button colors and hover state, class 1.28.25 */
+a:hover{
+background-color: #B2A5FF;
+color: black;
+transition-duration: 0.5s;
+border-radius: 10px;
+}
+/* added red banner as header bg in class 1.30.25 */
+header{
+	background-color: red;
+	padding: 20px 15px;
+}
+/* first row of boxes same size, black, gray, green, and red */
+div.box{
+	width: 250px;
+	height: 250px;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	float: left;
+}
+div.box-2{
+	width: 250px;
+	height: 250px;
+	background-color: gray;
+	color: white;
+	padding: 20px;
+	float: left;
+}
+div.box-3{
+	width: 250px;
+	height: 250px;
+	background-color: green;
+	color: white;
+	padding: 20px;
+	float: left;
+}
+div.box-4{
+	width: 250px;
+	height: 250px;
+	background-color: red;
+	color: white;
+	padding: 20px;
+	float: left;
+}
+/* second row of boxes same size, same content, all black bgs */
+div.box-5{
+	width: 250px;
+	height: 250px;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	float: left;
+}
+div.box-6{
+	width: 250px;
+	height: 250px;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	float: left;
+}
+div.box-7{
+	width: 250px;
+	height: 250px;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	float: left;
+}
+div.box-8{
+	width: 250px;
+	height: 250px;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	float: left;
+}
+/* third row of boxes same size, same content, all gray bgs */
+div.box-9{
+	width: 250px;
+	height: 250px;
+	background-color: gray;
+	color: white;
+	padding: 20px;
+	float: left;
+}
+div.box-10{
+	width: 250px;
+	height: 250px;
+	background-color: gray;
+	color: white;
+	padding: 20px;
+	float: left;
+}
+div.box-11{
+	width: 250px;
+	height: 250px;
+	background-color: gray;
+	color: white;
+	padding: 20px;
+	float: left;
+}
+div.box-12{
+	width: 250px;
+	height: 250px;
+	background-color: gray;
+	color: white;
+	padding: 20px;
+	float: left;
+}
+/* fourth row of boxes same size, same content, gradient bgs of chosen color */
+div.box-13{
+	width: 250px;
+	height: 250px;
+	background-color: rgb(4, 242, 84);
+	color: white;
+	padding: 20px;
+	float: left;
+}
+div.box-14{
+	width: 250px;
+	height: 250px;
+	background-color: rgb(4, 192, 101);
+	color: white;
+	padding: 20px;
+	float: left;
+}
+div.box-15{
+	width: 250px;
+	height: 250px;
+	background-color: rgb(1, 121, 41);
+	color: white;
+	padding: 20px;
+	float: left;
+}
+div.box-16{
+	width: 250px;
+	height: 250px;
+	background-color: rgb(1, 60, 33);
+	color: white;
+	padding: 20px;
+	float: left;
+}
+/*keeping footer to the bottom and NOT left of the boxes*/
+footer{
+	float: left;
+}
+
+</style>
+
+</head>
+
+<body>
+<!-- Beginning of the header section ----------------------------------- -->
+<header>
+<a href="#">HOME</a> | <a href="#">ABOUT US</a> | <a href="#">SERVICES</a> | <a href="#">CONTACT US</a>
+</header>
+<!-- End of the header section ----------------------------------------- -->
+
+<!-- Beginning of the content area ------------------------------------- -->
+<div class="content-area">
+<h1>HTML Formatting</h1>
+  <h2><bold>This is a bold attribute for heading 2</bold></h2>
+  <h2><strong>This is a strong attribute for heading 2</strong></h12>
+  <h2 class="formatting">Formatting using CSS</h2>
+	<p><i>i Italic formatting</i></p>
+	<p><em>em Italic formatting</em></p>
+	<p><small>This is a smaller text</small></p>
+	<p>Do not use <mark>CAPITAL LETTERS</mark> in HTML</p>
+	<p>This is a <sub>subscripted</sub> text element</p>
+	<p>This is a <b>bold</b> text element</p>
+	<p>This is a <em>emphasized</em> text element</p>
+	<p>This is a <i>partial</i> element</p>
+	<p>This is a <small>smaller</smaller> text element</p>
+	<p>This is a <strong>important</strong> text element</p>
+	<p>This is a <sub>subscripted</sub> text element</p>
+	<p>This is a <ins>inserted</ins> text element</p>
+	<p>This is a <del>deleted</del> text element</p>
+	<p>This is a <mark>highlighted</mark> text element</p>
+<hr />
+<p><a title="Go to an external website" target="_blank" href="https://www.yahoo.com/">Go to Yahoo</a></p>
+<p>links will appear using different states:</p>
+
+<ol>
+	<li>Unvisited link: is underlined and blue</li>
+	<li>Visited link: is underlined and purple</li>
+	<li>Active link: is underlined and red</li>
+</ol>
+
+<div id="row-1"> <!-- first row of four boxes horizontally floating left -->
+	<div class="box">
+	  <h2>Box 1</h2>
+		<p>Working with division tag to create sections. Division number 1.</p>
+	</div>
+
+	<div class="box-2">
+	 <h2>Box 2</h2>
+		<p>Working with division tag to create sections. Division number 1.</p>
+	</div>
+
+	<div class="box-3">
+	  <h2>Box 3</h2>
+		<p>Working with division tag to create sections. Division number 1.</p>
+	</div>
+
+	<div class="box-4">
+	  <h2>Box 4</h2>
+		<p>Working with division tag to create sections. Division number 1.</p>
+	</div>
+</div> <!--closing tag for div row 1 -->
+
+<div id="row-2"> <!-- second row of four boxes horizontally floating left -->
+	<div class="box-5">
+	  <h2>Box 1</h2>
+		<p>Working with division tag to create sections. Division number 1.</p>
+	</div>
+	
+	<div class="box-6">
+	  <h2>Box 2</h2>
+		<p>Working with division tag to create sections. Division number 1.</p>
+	</div>
+	
+	<div class="box-7">
+	  <h2>Box 3</h2>
+		<p>Working with division tag to create sections. Division number 1.</p>
+	</div>
+	
+	<div class="box-8">
+	  <h2>Box 4</h2>
+		<p>Working with division tag to create sections. Division number 1.</p>
+	</div>
+</div> <!--closing tag for div row 2 -->
+
+<div id="row-3"> <!-- third row of four boxes horizontally floating left -->
+	<div class="box-9">
+	  <h2>Box 1</h2>
+		<p>Working with division tag to create sections. Division number 1.</p>
+	</div>
+		
+	<div class="box-10">
+	  <h2>Box 2</h2>
+		<p>Working with division tag to create sections. Division number 1.</p>
+	</div>
+		
+	<div class="box-11">
+	  <h2>Box 3</h2>
+		<p>Working with division tag to create sections. Division number 1.</p>
+	</div>
+		
+	<div class="box-12">
+	  <h2>Box 4</h2>
+		<p>Working with division tag to create sections. Division number 1.</p>
+</div> <!--closing tag for div row 3 -->
+
+<div id="row-4"> <!-- fourth row of four boxes horizontally floating left -->
+	<div class="box-13">
+	  <h2>Box 1</h2>
+		<p>Working with division tag to create sections. Division number 1.</p>
+	</div>
+	
+	<div class="box-14">
+	  <h2>Box 2</h2>
+		<p>Working with division tag to create sections. Division number 1.</p>
+	</div>
+	
+	<div class="box-15">
+	  <h2>Box 3</h2>
+		<p>Working with division tag to create sections. Division number 1.</p>
+	</div>
+	
+	<div class="box-16">
+	  <h2>Box 4</h2>
+		<p>Working with division tag to create sections. Division number 1.</p>
+	</div>
+</div> <!--closing tag for div row 4 -->
+
+<!-- End of the content area --------------------------------------- -->
+
+<!-- Beginning of Footer Area --------------------------------------- -->
+<footer>
+  <h2>This is the footer section</h2>
+</footer>
+
+<!-- End of Footer Area --------------------------------------- -->
+
+</body>
+</html>
+
